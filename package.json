@@ -1,0 +1,24 @@
+{
+  "name": "sandnode",
+  "version": "1.0.0",
+  "description": "A sandbox on node and babel preset 3 to test JS code",
+  "main": "index.js",
+  "author": "Mesi Rendon <hello@mesirendon.com>",
+  "license": "MIT",
+  "bin": {
+    "sandnode": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^5.0.0",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.0",
+    "lodash": "^4.17.15",
+    "minimist": "^1.2.0",
+    "npm-add-script": "^1.1.0",
+    "shelljs": "^0.8.3",
+    "touch": "^3.1.0"
+  }
+}
