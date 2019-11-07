@@ -5,7 +5,6 @@
   "main": "index.js",
   "author": "Mesi Rendon <hello@mesirendon.com>",
   "license": "MIT",
-  "private": null,
   "bin": {
     "sandnode": "./index.js"
   },
