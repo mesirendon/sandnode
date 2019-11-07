@@ -6,8 +6,12 @@
   "author": "Mesi Rendon <hello@mesirendon.com>",
   "license": "MIT",
   "private": null,
+  "bin": {
+    "sandnode": "./index.js"
+  },
   "dependencies": {
     "chalk": "^2.4.2",
+    "child_process": "^1.0.2",
     "clear": "^0.1.0",
     "clui": "^0.3.6",
     "configstore": "^5.0.0",
@@ -15,6 +19,16 @@
     "inquirer": "^7.0.0",
     "lodash": "^4.17.15",
     "minimist": "^1.2.0",
+    "npm-add-script": "^1.1.0",
     "touch": "^3.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-stage-3": "^7.0.0",
+    "babel-register": "^6.26.0",
+    "nodemon": "^1.19.4"
   }
 }
