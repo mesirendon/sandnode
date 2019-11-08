@@ -5,6 +5,11 @@
   "main": "index.js",
   "author": "Mesi Rendon <hello@mesirendon.com>",
   "license": "MIT",
+  "keywords": ["sandbox", "node", "babel", "preset 3", "TDD", "mocha", "chai"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mesirendon/sandnode"
+  },
   "bin": {
     "sandnode": "./index.js"
   },
@@ -12,13 +17,9 @@
     "chalk": "^2.4.2",
     "clear": "^0.1.0",
     "clui": "^0.3.6",
-    "configstore": "^5.0.0",
     "figlet": "^1.2.4",
     "inquirer": "^7.0.0",
-    "lodash": "^4.17.15",
-    "minimist": "^1.2.0",
     "npm-add-script": "^1.1.0",
-    "shelljs": "^0.8.3",
-    "touch": "^3.1.0"
+    "shelljs": "^0.8.3"
   }
 }
