@@ -4,7 +4,19 @@ A Node and Babel preset 3 sandbox starter kit
 
 ## Getting started
 
-You need to have either `npm` or `yarn` installed.
+You need to have either `npm` or `yarn` installed, if you want to have it installed. Otherwise, you need `npx` to run it on the fly.
+
+### On the fly running
+
+You can use `npx` in order to start your project without installing the package globally.
+
+```bash
+mkdir -p path/to/your/empty/project
+cd path/to/your/empty/project
+npx sandnode
+```
+
+Just answer the questions and you are ready to go [testing](#tests) or [running](#running).
 
 ### Installing
 
