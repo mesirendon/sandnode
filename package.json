@@ -1,6 +1,6 @@
 {
   "name": "sandnode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A sandbox on node and babel preset 3 to test JS code",
   "main": "index.js",
   "author": "Mesi Rendon <hello@mesirendon.com>",
