@@ -16,7 +16,7 @@ cd path/to/your/empty/project
 npx sandnode
 ```
 
-Just answer the questions and you are ready to go [testing](#testing) or running.
+Just answer the questions and you are ready to go [testing](#tests) or running.
 
 ### Installing
 
