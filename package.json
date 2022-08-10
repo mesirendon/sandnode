@@ -1,9 +1,10 @@
 {
   "name": "sandnode",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A sandbox on node and babel preset 3 to test JS code",
   "main": "index.js",
   "author": "Mesi Rendon <hello@mesirendon.com>",
+  "type": "module",
   "license": "MIT",
   "keywords": [
     "sandbox",
@@ -29,5 +30,10 @@
     "inquirer": "^9.0.2",
     "npm-add-script": "^1.1.0",
     "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10"
   }
 }
