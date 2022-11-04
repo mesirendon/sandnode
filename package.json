@@ -1,6 +1,6 @@
 {
   "name": "sandnode",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A sandbox on node and babel preset 3 to test JS code",
   "main": "index.js",
   "author": "Mesi Rendon <hello@mesirendon.com>",
@@ -23,17 +23,17 @@
     "sandnode": "./index.js"
   },
   "dependencies": {
-    "chalk": "^5.0.1",
+    "chalk": "^5.1.2",
     "clear": "^0.1.0",
     "clui": "^0.3.6",
     "figlet": "^1.5.2",
-    "inquirer": "^9.0.2",
+    "inquirer": "^9.1.4",
     "npm-add-script": "^1.1.0",
     "shelljs": "^0.8.5"
   },
   "devDependencies": {
-    "@babel/cli": "^7.18.10",
-    "@babel/core": "^7.18.10",
-    "@babel/preset-env": "^7.18.10"
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4"
   }
 }
